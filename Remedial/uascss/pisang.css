@@ -1,0 +1,157 @@
+.palingbelakang {
+  width: 100vw;
+  height: 251vh;
+  display: block;
+  background-color: #fff6f1;
+}
+
+.fotoresep {
+  width: 55vw;
+  height: 200vh;
+  margin-left: 22.5vw;
+  margin-right: 22.5vw;
+  float: left;
+  background-color: transparent;
+  position: relative;
+}
+
+#fotore {
+	height: 61vh; 
+	margin-bottom: 0vw;
+  float: right;
+}
+
+
+.resep {
+  width: 49vw;
+  height: 150vh;
+  margin-top: 41vh;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  top: 2vh;
+  display: block; 
+  float: left;
+  background-color: #fff6f1;
+  position: absolute;
+}
+
+.resepa {
+  width: 46vw;
+  height: 16vh;
+  font-size: 48px;
+  color: #665146;
+  text-align: left;
+  margin-right: 1.5vw;
+  margin-left: 1.5vw;
+  margin-top: 3vh;
+  float: left;
+  background-color: transparent;
+}
+
+.resepb {
+  width: 46vw;
+  height: 129vh;
+  margin-right: 1.5vw;
+  margin-left: 1.5vw;
+  margin-top: 0vh;
+  float: left;
+  background-color: transparent;
+}
+
+.resepc {
+  width: 20vw;
+  height: 49vh;
+  color: #665146;
+  text-align: left;
+  margin-left: 1.5vw;
+  margin-top: 7vh;
+  float: left;
+  background-color: transparent;
+}
+
+.resepd {
+  width: 46vw;
+  height: 80vh;
+  color: #665146;
+  text-align: left;
+  margin-right: 1.5vw;
+  margin-left: 1.5vw;
+  margin-top: 0vh;
+  float: left;
+  background-color: transparent;
+}
+
+.resepc > h1 {font-size: 36px}
+.resepc > h2 {font-size: 24px; font-style: bold;}
+.resepc > p {font-size: 24px}
+
+.resepd > h1 {font-size: 36px}
+.resepd > h2 {font-size: 24px; font-style: bold;}
+.resepd > p {font-size: 24px}
+
+.resepe {
+  width: 23.5vw;
+  height: 37vh;
+  display: block; 
+  float: right;
+  margin-top: 16vh;
+  background-color: transparent;
+}
+
+
+
+
+
+.related {
+  height: 45vh;
+  width: 76vw;
+  margin-right: 12%;
+  margin-left: 12%;
+  float: left;
+  background-color: transparent;
+}
+
+.relatedtulis {
+  height: auto;
+  width: 76vw;
+  font-size: 48px;
+  text-align: left;
+  color: #e2b380;
+  float: left;
+  margin-bottom: 3%;
+  background-color: transparent;
+
+}
+
+
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+.resepe{
+    margin-top: 10vh;
+    margin-right: 0%;
+    margin-left: 0%;
+    width: 45vw;
+    position: relative;
+  }
+.resepa {
+  position: relative;
+  margin-bottom: 30px;
+  font-size: 25pt;
+}
+ 
+
+.resepc{
+  width: 40vw;
+  position: relative;
+}
+
+.related{
+  margin-top: 90vh;
+}
+
+.palingbelakang {
+  height: 410vh;
+}
+
+
